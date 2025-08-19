@@ -60,9 +60,27 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+```
+public class LargestElement_array {
+    public static void main(String[] args) {
 
+        int[] arr = new int[] {25, 11, 7, 75, 56};
+
+        int max = arr[0]; 
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] > max)
+                max = arr[i];  
+        }
+
+        System.out.println("Largest element present in the given array: " + max);
+    }
+}
+```
 
 ## OUTPUT:
+<img width="1054" height="991" alt="Screenshot 2025-08-19 181952" src="https://github.com/user-attachments/assets/aa8fd061-b45c-4ffa-b337-bdd41fcc8bcf" />
 
 
 ## RESULT:
